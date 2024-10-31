@@ -37,27 +37,17 @@
           <widget class="QComboBox" name="Cap_ID">
            <item>
             <property name="text">
-             <string>CA-203  (32 ch)</string>
+             <string>CA-209 (32 ch)</string>
             </property>
            </item>
            <item>
             <property name="text">
-             <string>CA-208  (64 ch)</string>
+             <string>CA-001 (32 ch)</string>
             </property>
            </item>
            <item>
             <property name="text">
-             <string>CA-209  (128 ch)</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string> 64   - No Labels</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>128 - No Labels</string>
+             <string>CA-200 (64 ch)</string>
             </property>
            </item>
           </widget>
@@ -79,7 +69,7 @@
            </property>
            <item>
             <property name="text">
-             <string>500</string>
+             <string>256</string>
             </property>
            </item>
            <item>
@@ -89,17 +79,7 @@
            </item>
            <item>
             <property name="text">
-             <string>1000</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
              <string>1024</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>2000</string>
             </property>
            </item>
            <item>
@@ -109,27 +89,12 @@
            </item>
            <item>
             <property name="text">
-             <string>4000</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
              <string>4096</string>
             </property>
            </item>
            <item>
             <property name="text">
-             <string>8000</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
              <string>8192</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>16000</string>
             </property>
            </item>
            <item>
@@ -206,7 +171,7 @@
          <item row="4" column="1">
           <widget class="QLineEdit" name="EEG_LineEdit">
            <property name="text">
-            <string>0xFFFFFFFFFFFFFFFF</string>
+            <string>0xFFFFFFFF</string>
            </property>
           </widget>
          </item>
@@ -220,7 +185,7 @@
          <item row="5" column="1">
           <widget class="QLineEdit" name="BIP_LineEdit">
            <property name="text">
-            <string>0x000000</string>
+            <string>0x0001C7</string>
            </property>
           </widget>
          </item>

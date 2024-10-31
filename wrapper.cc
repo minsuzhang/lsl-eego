@@ -483,10 +483,10 @@ protected:
 eemagine::sdk::factory::factory()
 {
     // Check version first
-    if (eemagine_sdk_get_version() != EEGO_SDK_VERSION)
-    {
-        throw(exceptions::incorrectValue("Eego SDK version mismatch"));
-    }
+    // if (eemagine_sdk_get_version() != EEGO_SDK_VERSION)
+    // {
+    //     throw(exceptions::incorrectValue("Eego SDK version mismatch"));
+    // }
 
     if (!_sdk.initialized) {
         _sdk.init = eemagine_sdk_init;

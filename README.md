@@ -13,10 +13,10 @@ If you work at Campus Biotech Geneva, contact the maintainer to receive the file
 To use the plugin, the driver has to be installed from the device manager. The Windows 8 driver can be used for Windows 10. 
 
 ### Linux
-The Linux release has been compiled on Ubuntu 16.04 with Qt Creator. It will work on 16.04 or later.
+The Linux release has been compiled on Ubuntu 16.04 & 22.04 with Qt Creator. It will work on 16.04 or later.
 
 Missing file:
-- eego-SDK.lib
+- libeego-SDK.so
 
 Contact the maintainer if you work at Campus Biotech Geneva to receive the Linux release or the missing files.
 
@@ -40,4 +40,4 @@ A .pro file can be found to create the makefile using Qt Creator. The C++ boost 
 5. Press ```Link``` button to start the data streaming to the LSL local server.
 
 ## Support
-Contact <arnaud.desvachez@gmail.com>
+Contact <mathieu.scheltienne@fcbg.ch> or <minsuzhang@utexas.edu>
