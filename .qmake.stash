@@ -1,0 +1,23 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201703L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 13
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 3
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /home/minsu-admin/opt/miniconda/envs/mne/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ \
+    /home/minsu-admin/opt/miniconda/envs/mne/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu \
+    /home/minsu-admin/opt/miniconda/envs/mne/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward \
+    /home/minsu-admin/opt/miniconda/envs/mne/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include \
+    /home/minsu-admin/opt/miniconda/envs/mne/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed \
+    /home/minsu-admin/opt/miniconda/envs/mne/x86_64-conda-linux-gnu/sysroot/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /home/minsu-admin/opt/miniconda/envs/mne/lib/gcc/x86_64-conda-linux-gnu/13.3.0 \
+    /home/minsu-admin/opt/miniconda/envs/mne/lib/gcc \
+    /home/minsu-admin/opt/miniconda/envs/mne/x86_64-conda-linux-gnu/lib \
+    /home/minsu-admin/opt/miniconda/envs/mne/lib \
+    /home/minsu-admin/opt/miniconda/envs/mne/x86_64-conda-linux-gnu/sysroot/lib \
+    /home/minsu-admin/opt/miniconda/envs/mne/x86_64-conda-linux-gnu/sysroot/usr/lib
