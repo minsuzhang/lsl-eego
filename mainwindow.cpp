@@ -366,10 +366,6 @@ void Reader::read() {
         // make a data outlet
         lsl::stream_outlet data_outlet(data_info);
 
-        // create marker streaminfo and outlet
-        lsl::stream_info marker_info("eegoSports-" + amp->getSerialNumber() + "_markers", "Markers", 1, 0, lsl::cf_string, "eegoSports_" + boost::lexical_cast<std::string>(amp->getSerialNumber()) + "_markers");
-        lsl::stream_outlet marker_outlet(marker_info);
-
         std::vector<channel> eegChannelList = eegStream->getChannelList();
 
 
@@ -398,16 +394,6 @@ void Reader::read() {
             double now = lsl::local_clock();
             data_outlet.push_chunk(send_buffer, now);
 
-            double last_mrk = 0;
-            for (unsigned int s = 0; s < sampleCount; s++) {
-                //if (int mrk = src_buffer[channelCount + s*(channelCount + 1)]) {
-                double mrk = buffer.getSample(channelCount - 1, s);
-                if (mrk != last_mrk) {
-                    std::string mrk_string = boost::lexical_cast<std::string>(mrk);
-                    marker_outlet.push_sample(&mrk_string, now + (s + 1 - sampleCount) / static_cast<unsigned int>(samplingRate));
-                    last_mrk = mrk;
-                }
-            }
         }
     }
     catch (exceptions::notFound) {
